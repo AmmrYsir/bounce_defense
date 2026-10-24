@@ -1,0 +1,14 @@
+#id,名称多语言,备注用,使用图标,描述多语言,排列顺序,升级权重,未选中升级增加权重,最大等级,对应值
+%id,Name,des,Icon,DescriptionKey,SortOrder,Weight,AddWeight,MaxLevel,Property
+$[id:unique][id:type:int],[Name:type:string],[des:type:string],[Icon:type:string],[DescriptionKey:type:string],[SortOrder:type:int],[Weight:type:int],[AddWeight:type:int],[MaxLevel:type:int],[Property:type:List<int>]
+1,Artifact_Name_Shop_Num,商店宝箱数量提升 配置为俩个宝箱增加的数量,artifact_1,Artifact_Describe_Shop_Num,3,25,5,20,5|10|10|20|15|30|20|40|25|50|30|60|35|70|40|80|45|90|50|100|55|110|60|120|65|130|70|140|75|150|80|160|85|170|90|180|95|190|100|200|101|201
+2,Artifact_Name_Shop_Quality,商店宝箱稀有几率提升 配置为对应等级使用的卡池几率,artifact_2,Artifact_Describe_Shop_Quality,3,25,5,20,20001|20001|20002|20002|20003|20003|20004|20004|20005|20005|20006|20006|20007|20007|20008|20008|20009|20009|20010|20010|20011|20011|20012|20012|20013|20013|20014|20014|20015|20015|20016|20016|20017|20017|20018|20018|20019|20019|20020|20020|20021|20021
+1001,Artifact_Name_1001,初始局内货币增加,artifact_1001,Artifact_Describe_1001,3,50,5,30,5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|32
+1002,Artifact_Name_1002,每回合发放局内货币增加,artifact_1002,Artifact_Describe_1002,4,20,5,7,1|2|3|4|5|6|7|8
+1003,Artifact_Name_1003,对首领伤害增加,artifact_1003,Artifact_Describe_1003,5,50,5,20,5|7|9|11|13|15|17|19|21|23|25|27|29|31|33|35|37|39|41|43|45|47|50
+1004,Artifact_Name_1004,暴击时，有几率掉落局内货币,artifact_1004,Artifact_Describe_1004,6,50,5,20,6|8|9|11|13|15|17|19|21|23|25|27|29|31|33|35|37|39|41|43|45|47|50
+1005,Artifact_Name_1005,游戏中每次刷新有几率出现免费的单位,artifact_1005,Artifact_Describe_1005,7,20,5,5,1|2|3|4|5|6
+1006,Artifact_Name_1006,每10个未使用的局内货币在回合开始时会给与1个利息,artifact_1006,Artifact_Describe_1006,8,10,1,2,1|2|3
+1007,Artifact_Name_1007,游戏结束将剩余的游戏货币转化为金币(增加比例,artifact_1007,Artifact_Describe_1007,9,50,5,20,30|40|50|60|70|80|90|100|120|140|160|180|200|220|240|260|280|300|320|340|360|380|400|420|440|460|480|500|520
+1008,Artifact_Name_1008,初始获得一次选择技能得机会,artifact_1008,Artifact_Describe_1008,2,0,5,1,1
+1009,Artifact_Name_1009,城堡生命值提升,artifact_1009,Artifact_Describe_1009,1,50,5,15,5|7|9|11|13|15|17|19|21|23|25|27|30|35|40|45|50

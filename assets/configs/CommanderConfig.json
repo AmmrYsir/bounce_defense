@@ -1,0 +1,6 @@
+#id,角色名称(备注用 实际还是读取商店中的),角色解锁章节达到后解锁,解锁等级(原配置),解锁需要消耗钻石,,升级消耗金币(根据次数变化若没有则读最后一个),升级消耗对应碎片,uniqueId
+%id,name,unlock_chapter,unlock_level,unlock_gemCost,starting_level,need_gold,need_pieces,uniqueId
+$[id:unique][id:type:int],[name:type:string],[unlock_chapter:type:int],[unlock_level:type:int],[unlock_gemCost:type:int],[starting_level:type:int],[need_gold:type:List<int>],[need_pieces:type:List<int>],[uniqueId:type:int]
+1,工程师,3,5,0,1,500|800|1000|1500|2000|2500|3000|3500|4000|4500|5000|5500|6000|6500|7000,1|2|3|5|8|10|15|20|25|30|35|40|45|50|50,-1016541305
+2,机器人,6,8,0,1,500|800|1000|1500|2000|2500|3000|3500|4000|4500|5000|5500|6000|6500|7000,1|2|3|5|8|10|15|20|25|30|35|40|45|50|50,1493733939
+3,法师,9,12,0,1,500|800|1000|1500|2000|2500|3000|3500|4000|4500|5000|5500|6000|6500|7000,1|2|3|5|8|10|15|20|25|30|35|40|45|50|50,-1264289112

@@ -1,0 +1,314 @@
+#id,技能id,类型(加载类型)0 全局1 boss2 装备英雄3 英雄升级解锁技能,所属英雄,描述,描述,描述多语言Key,设置多语言Key,技能星级,技能上限值,基础权重,绿色值及权重,蓝色品质,紫色品质,橙色品质,广告刷新加成权重
+%id,skill_id,skill_add_type,hero_id,des1,des2,des_key,setting_des_key,star,upper_limit,base_weight,value_weight1,value_weight2,value_weight3,value_weight4,refresh
+$[id:unique][id:type:int],[skill_id:type:int],[skill_add_type:type:int],[hero_id:type:int],[des1:type:string],[des2:type:string],[des_key:type:string],[setting_des_key:type:string],[star:type:int],[upper_limit:type:nt],[base_weight:type:int],[value_weight1:type:List<int>],[value_weight2:type:List<int>],[value_weight3:type:List<int>],[value_weight4:type:List<int>],[refresh:type:List<int>]
+1,1,0,-1,-1,Skill Data +1 Ball,Skill.PlusOneBall,,0,3,0,1|0,1|130,1|0,1|0,-1
+2,2,0,-1,-1,Skill Data Ball Boost RV,Skill.BallBoost,,-1,-1,10000,1|0,1|130,1|0,1|0,-1
+3,3,0,-1,-1,Skill Data Ball Speed,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+4,4,0,-1,-1,Skill Data Base Heal,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+5,5,0,-1,-1,Skill Data Base with RV Heal,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+6,6,1,-1,-1,Skill Data Boss Damage,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+7,7,0,-1,-1,Skill Data Bouncer Level Up,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+8,8,-1,-1,-1,Skill Data Bullet Split Chance,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+9,9,0,-1,-1,Skill Data Critical Chance,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+10,10,0,-1,-1,Skill Data Critical Damage,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+11,11,0,-1,-1,Skill Data Cursed Growth,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+12,12,-1,-1,-1,Skill Data Double Departuret,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+13,13,-1,-1,-1,Skill Data Double Shoot Chance,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+14,14,0,-1,-1,Skill Data Enemy Speed,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+15,15,0,-1,-1,Skill Data EXP UP,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+16,16,-1,-1,-1,Skill Data Fill Number Reduce,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+17,17,0,-1,-1,Skill Data Hero Multi Use,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+18,18,0,-1,-1,Skill Data Increase Damage,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+19,19,0,-1,-1,Skill Data Increase Damage for this wave,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+20,20,0,-1,-1,Skill Data Increase Damage for this wave RV,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+21,21,0,-1,-1,Skill Data Increase Damage with RV,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+22,22,0,-1,-1,Skill Data Insta Shot,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+23,23,0,-1,-1,Skill Data Level Up Random Tower,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+24,24,0,-1,-1,Skill Data Life Steal Chance,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+25,25,0,-1,-1,Skill Data Luck Chance,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+26,26,0,-1,-1,Skill Data Max HP Up,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+27,27,0,-1,-1,Skill Data Merge Bonus,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+28,28,0,-1,-1,Skill Data Miss Chance,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+29,29,0,-1,-1,Skill Data Recycle Refund,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+30,30,0,-1,-1,Skill Data Remove Random Obstacle,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+31,31,-1,-1,-1,Skill Data Ricochet Chance,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+32,32,-1,-1,-1,Skill Data Skill Duration,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+33,33,-1,-1,-1,Skill Data Skill Range,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+35,35,0,-1,-1,Skill Data Wall Shield,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+36,36,3,26,-1,Skill Data EnergyStorage1,Skill.EnergyStorage.01,Skill.EnergyStorage.01,-1,70,0,5|50,10|25,15|15,20|5,0|0|50|30
+37,37,3,26,-1,Skill Data EnergyStorage2,Skill.EnergyStorage.02,Skill.EnergyStorage.02,-1,3,0,1|0,1|0,1|230,1|0,-1
+38,38,3,26,-1,Skill Data EnergyStorage3,Skill.EnergyStorage.03,Skill.EnergyStorage.03,-1,3,0,1|0,1|0,1|230,1|0,-1
+39,39,0,-1,-1,Skill Data Get Extra Coin,,,-1,-1,0,1|0,1|130,1|0,1|0,-1
+40,40,3,27,-1,Skill Data AircraftFactory1Bullet firing interval reduced by {0} seconds,Skill.AircraftFactory.01,Skill.AircraftFactory.01,-1,1,0,1|0,1|0,1|0,1|10,0|0|0|30
+41,41,3,27,-1,Skill Data AircraftFactory2Increases the critical strike chance of Charged Missiled {0}%,Skill.AircraftFactory.02,Skill.AircraftFactory.02,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+42,42,3,27,-1,Skill Data AircraftFactory3bullet value add {0},Skill.AircraftFactory.03,Skill.AircraftFactory.03,-1,3,0,1|0,1|0,1|230,1|0,0|0|50|0
+#1001001,33,2,1,PewPewPod,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1001002,32,2,1,PewPewPod,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1001003,16,2,1,PewPewPod,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+#1001004,12,2,1,PewPewPod,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,,,,,0|0|50|30
+1001005,8,2,1,PewPewPod,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1001006,31,2,1,PewPewPod,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1001007,13,2,1,PewPewPod,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1001008,18,2,1,PewPewPod,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1001009,9,2,1,PewPewPod,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1001010,10,2,1,PewPewPod,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+1002001,33,2,2,Bomb,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1002002,32,2,2,Bomb,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1002003,16,2,2,Bomb,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+#1002004,12,2,2,Bomb,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,,,,,0|0|50|30
+#1002005,8,2,2,Bomb,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1002006,31,2,2,Bomb,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+#1002007,13,2,2,Bomb,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,,,,,0|0|50|30
+1002008,18,2,2,Bomb,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1002009,9,2,2,Bomb,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1002010,10,2,2,Bomb,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+1003001,33,2,3,Boomerang回旋镖,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1003002,32,2,3,Boomerang回旋镖,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1003003,16,2,3,Boomerang回旋镖,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1003004,12,2,3,Boomerang回旋镖,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1003005,8,2,3,Boomerang回旋镖,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1003006,31,2,3,Boomerang回旋镖,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+1003007,13,2,3,Boomerang回旋镖,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1003008,18,2,3,Boomerang回旋镖,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1003009,9,2,3,Boomerang回旋镖,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1003010,10,2,3,Boomerang回旋镖,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1004001,33,2,4,TwinBlaster双枪,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1004002,32,2,4,TwinBlaster双枪,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+#1004003,16,2,4,TwinBlaster双枪,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,,,,,0|0|50|30
+1004004,12,2,4,TwinBlaster双枪,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1004005,8,2,4,TwinBlaster双枪,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1004006,31,2,4,TwinBlaster双枪,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+1004007,13,2,4,TwinBlaster双枪,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1004008,18,2,4,TwinBlaster双枪,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1004009,9,2,4,TwinBlaster双枪,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1004010,10,2,4,TwinBlaster双枪,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1005001,33,2,5,TripleShooter,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1005002,32,2,5,TripleShooter,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+#1005003,16,2,5,TripleShooter,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,,,,,0|0|50|30
+1005004,12,2,5,TripleShooter,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1005005,8,2,5,TripleShooter,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1005006,31,2,5,TripleShooter,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+1005007,13,2,5,TripleShooter,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1005008,18,2,5,TripleShooter,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1005009,9,2,5,TripleShooter,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1005010,10,2,5,TripleShooter,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1006001,33,2,6,QuickshotQuill,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1006002,32,2,6,QuickshotQuill,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1006003,16,2,6,QuickshotQuill,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1006004,12,2,6,QuickshotQuill,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1006005,8,2,6,QuickshotQuill,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1006006,31,2,6,QuickshotQuill,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+1006007,13,2,6,QuickshotQuill,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1006008,18,2,6,QuickshotQuill,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1006009,9,2,6,QuickshotQuill,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1006010,10,2,6,QuickshotQuill,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+1007001,33,2,7,WoodMaster木桩,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1007002,32,2,7,WoodMaster木桩,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1007003,16,2,7,WoodMaster木桩,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1007004,12,2,7,WoodMaster木桩,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1007005,8,2,7,WoodMaster木桩,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1007006,31,2,7,WoodMaster木桩,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+#1007007,13,2,7,WoodMaster木桩,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,,,,,0|0|50|30
+1007008,18,2,7,WoodMaster木桩,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1007009,9,2,7,WoodMaster木桩,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1007010,10,2,7,WoodMaster木桩,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1008001,33,2,8,ArcaneMissile导弹,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1008002,32,2,8,ArcaneMissile导弹,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1008003,16,2,8,ArcaneMissile导弹,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1008004,12,2,8,ArcaneMissile导弹,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1008005,8,2,8,ArcaneMissile导弹,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1008006,31,2,8,ArcaneMissile导弹,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+1008007,13,2,8,ArcaneMissile导弹,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1008008,18,2,8,ArcaneMissile导弹,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1008009,9,2,8,ArcaneMissile导弹,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1008010,10,2,8,ArcaneMissile导弹,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1009001,33,2,9,Electro电圈,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1009002,32,2,9,Electro电圈,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1009003,16,2,9,Electro电圈,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1009004,12,2,9,Electro电圈,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1009005,8,2,9,Electro电圈,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1009006,31,2,9,Electro电圈,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+1009007,13,2,9,Electro电圈,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1009008,18,2,9,Electro电圈,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1009009,9,2,9,Electro电圈,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1009010,10,2,9,Electro电圈,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1010001,33,2,10,Flamethrower火,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+1010002,32,2,10,Flamethrower火,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1010003,16,2,10,Flamethrower火,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1010004,12,2,10,Flamethrower火,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+1010005,8,2,10,Flamethrower火,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1010006,31,2,10,Flamethrower火,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+#1010007,13,2,10,Flamethrower火,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,,,,,0|0|50|30
+1010008,18,2,10,Flamethrower火,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1010009,9,2,10,Flamethrower火,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1010010,10,2,10,Flamethrower火,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+1011001,33,2,11,Poison,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1011002,32,2,11,Poison,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1011003,16,2,11,Poison,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+#1011004,12,2,11,Poison,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,,,,,0|0|50|30
+#1011005,8,2,11,Poison,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1011006,31,2,11,Poison,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+#1011007,13,2,11,Poison,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,,,,,0|0|50|30
+1011008,18,2,11,Poison,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1011009,9,2,11,Poison,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1011010,10,2,11,Poison,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1012001,33,2,12,Freeze,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1012002,32,2,12,Freeze,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1012003,16,2,12,Freeze,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1012004,12,2,12,Freeze,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1012005,8,2,12,Freeze,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1012006,31,2,12,Freeze,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+#1012007,13,2,12,Freeze,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,,,,,0|0|50|30
+1012008,18,2,12,Freeze,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1012009,9,2,12,Freeze,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1012010,10,2,12,Freeze,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+1013001,33,2,13,Durian榴莲,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1013002,32,2,13,Durian榴莲,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1013003,16,2,13,Durian榴莲,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1013004,12,2,13,Durian榴莲,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1013005,8,2,13,Durian榴莲,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1013006,31,2,13,Durian榴莲,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+1013007,13,2,13,Durian榴莲,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1013008,18,2,13,Durian榴莲,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1013009,9,2,13,Durian榴莲,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1013010,10,2,13,Durian榴莲,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+1014001,33,2,14,Rebounder旋转镖,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1014002,32,2,14,Rebounder旋转镖,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1014003,16,2,14,Rebounder旋转镖,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1014004,12,2,14,Rebounder旋转镖,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1014005,8,2,14,Rebounder旋转镖,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1014006,31,2,14,Rebounder旋转镖,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+1014007,13,2,14,Rebounder旋转镖,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1014008,18,2,14,Rebounder旋转镖,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1014009,9,2,14,Rebounder旋转镖,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1014010,10,2,14,Rebounder旋转镖,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1015001,33,2,15,Exploding Rock,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1015002,32,2,15,Exploding Rock,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1015003,16,2,15,Exploding Rock,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1015004,12,2,15,Exploding Rock,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1015005,8,2,15,Exploding Rock,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+1015006,31,2,15,Exploding Rock,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1015007,13,2,15,Exploding Rock,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1015008,18,2,15,Exploding Rock,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1015009,9,2,15,Exploding Rock,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1015010,10,2,15,Exploding Rock,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+1016001,33,2,16,Kunai苦无,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1016002,32,2,16,Kunai苦无,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1016003,16,2,16,Kunai苦无,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1016004,12,2,16,Kunai苦无,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1016005,8,2,16,Kunai苦无,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1016006,31,2,16,Kunai苦无,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+1016007,13,2,16,Kunai苦无,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1016008,18,2,16,Kunai苦无,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1016009,9,2,16,Kunai苦无,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1016010,10,2,16,Kunai苦无,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+1017001,33,2,17,Glue胶水,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1017002,32,2,17,Glue胶水,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1017003,16,2,17,Glue胶水,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+#1017004,12,2,17,Glue胶水,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,,,,,0|0|50|30
+#1017005,8,2,17,Glue胶水,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1017006,31,2,17,Glue胶水,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+1017007,13,2,17,Glue胶水,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1017008,18,2,17,Glue胶水,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,,,,,0|0|50|30
+#1017009,9,2,17,Glue胶水,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,,,,,0|0|50|30
+#1017010,10,2,17,Glue胶水,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,,,,,0|0|50|30
+1018001,33,2,18,Rotten Tomato,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1018002,32,2,18,Rotten Tomato,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1018003,16,2,18,Rotten Tomato,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+#1018004,12,2,18,Rotten Tomato,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,,,,,0|0|50|30
+#1018005,8,2,18,Rotten Tomato,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1018006,31,2,18,Rotten Tomato,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+1018007,13,2,18,Rotten Tomato,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1018008,18,2,18,Rotten Tomato,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,,,,,0|0|50|30
+#1018009,9,2,18,Rotten Tomato,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,,,,,0|0|50|30
+#1018010,10,2,18,Rotten Tomato,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,,,,,0|0|50|30
+#1019001,33,2,19,Inverter逆变器,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1019002,32,2,19,Inverter逆变器,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1019003,16,2,19,Inverter逆变器,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1019004,12,2,19,Inverter逆变器,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+1019005,8,2,19,Inverter逆变器,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1019006,31,2,19,Inverter逆变器,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+#1019007,13,2,19,Inverter逆变器,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,,,,,0|0|50|30
+1019008,18,2,19,Inverter逆变器,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1019009,9,2,19,Inverter逆变器,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1019010,10,2,19,Inverter逆变器,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+1020001,33,2,20,BlackHole黑洞,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1020002,32,2,20,BlackHole黑洞,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1020003,16,2,20,BlackHole黑洞,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1020004,12,2,20,BlackHole黑洞,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1020005,8,2,20,BlackHole黑洞,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1020006,31,2,20,BlackHole黑洞,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+#1020007,13,2,20,BlackHole黑洞,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,,,,,0|0|50|30
+#1020008,18,2,20,BlackHole黑洞,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,,,,,0|0|50|30
+#1020009,9,2,20,BlackHole黑洞,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,,,,,0|0|50|30
+#1020010,10,2,20,BlackHole黑洞,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,,,,,0|0|50|30
+1021001,33,2,21,Landmine地雷,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1021002,32,2,21,Landmine地雷,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1021003,16,2,21,Landmine地雷,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1021004,12,2,21,Landmine地雷,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+#1021005,8,2,21,Landmine地雷,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1021006,31,2,21,Landmine地雷,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+#1021007,13,2,21,Landmine地雷,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,,,,,0|0|50|30
+1021008,18,2,21,Landmine地雷,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1021009,9,2,21,Landmine地雷,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1021010,10,2,21,Landmine地雷,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1022001,33,2,22,Detonator,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1022002,32,2,22,Detonator,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1022003,16,2,22,Detonator,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+1022004,12,2,22,Detonator,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,10|50,25|25,50|15,100|5,0|0|50|30
+1022005,8,2,22,Detonator,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1022006,31,2,22,Detonator,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1022007,13,2,22,Detonator,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1022008,18,2,22,Detonator,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1022009,9,2,22,Detonator,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1022010,10,2,22,Detonator,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1023001,33,2,23,SpecialMarchent,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1023002,32,2,23,SpecialMarchent,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1023003,16,2,23,SpecialMarchent,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+#1023004,12,2,23,SpecialMarchent,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,,,,,0|0|50|30
+1023005,8,2,23,SpecialMarchent,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1023006,31,2,23,SpecialMarchent,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1023007,13,2,23,SpecialMarchent,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1023008,18,2,23,SpecialMarchent,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1023009,9,2,23,SpecialMarchent,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1023010,10,2,23,SpecialMarchent,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1024001,33,2,24,SpecialBallBoost,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1024002,32,2,24,SpecialBallBoost,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1024003,16,2,24,SpecialBallBoost,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+#1024004,12,2,24,SpecialBallBoost,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,,,,,0|0|50|30
+1024005,8,2,24,SpecialBallBoost,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1024006,31,2,24,SpecialBallBoost,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1024007,13,2,24,SpecialBallBoost,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1024008,18,2,24,SpecialBallBoost,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1024009,9,2,24,SpecialBallBoost,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1024010,10,2,24,SpecialBallBoost,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1025001,33,2,25,SpecialMedic,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1025002,32,2,25,SpecialMedic,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1025003,16,2,25,SpecialMedic,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+#1025004,12,2,25,SpecialMedic,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,,,,,0|0|50|30
+1025005,8,2,25,SpecialMedic,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1025006,31,2,25,SpecialMedic,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1025007,13,2,25,SpecialMedic,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+1025008,18,2,25,SpecialMedic,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1025009,9,2,25,SpecialMedic,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1025010,10,2,25,SpecialMedic,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+1026001,33,2,26,蓄能飞弹,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,100,0,10|50,20|25,30|15,50|5,0|0|50|30
+#1026002,32,2,26,蓄能飞弹,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1026003,16,2,26,蓄能飞弹,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+#1026004,12,2,26,蓄能飞弹,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,,,,,0|0|50|30
+#1026005,8,2,26,蓄能飞弹,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1026006,31,2,26,蓄能飞弹,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+#1026007,13,2,26,蓄能飞弹,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,,,,,0|0|50|30
+1026008,18,2,26,蓄能飞弹,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1026009,9,2,26,蓄能飞弹,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+1026010,10,2,26,蓄能飞弹,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,10|50,10|25,15|15,20|5,0|0|50|30
+#1027001,33,2,27,飞机,尺寸放大（配置百分比）,Skill.SkillRange2,Skill.Setting.SkillRange2,-1,200,0,,,,,0|0|50|30
+#1027002,32,2,27,飞机,持续时间（配置百分比）,Skill.SkillDuration2,Skill.Setting.SkillDuration2,-1,100,0,,,,,0|0|50|30
+1027003,16,2,27,飞机,减少触发次数（配置百分比）,Skill.FillNumberReduce2,Skill.Setting.FillNumberReduce2,-1,50,0,0|0,0|0,0|0,50|5,0|0|50|30
+#1027004,12,2,27,飞机,双重触发（配置几率）,Skill.DoubleDeparturet2,Skill.Setting.DoubleDeparturet2,-1,100,0,,,,,0|0|50|30
+#1027005,8,2,27,飞机,子弹分裂 打击后分裂（几率）,Skill.SplitChance2,Skill.Setting.SplitChance2,-1,100,0,,,,,0|0|50|30
+#1027006,31,2,27,飞机,弹射几率 打击后弹射（几率）,Skill.Ricochet2,Skill.Setting.Ricochet2,-1,100,0,,,,,0|0|50|30
+#1027007,13,2,27,飞机,双重发射 （几率）,Skill.DoubleShoot2,Skill.Setting.DoubleShoot2,-1,100,0,,,,,0|0|50|30
+1027008,18,2,27,飞机,伤害（提升百分比）,Skill.IncreaseDamage.unit,Skill.Setting.IncreaseDamage.unit,-1,200,0,10|50,20|25,30|15,50|5,0|0|50|30
+1027009,9,2,27,飞机,暴击率（提升具体几率）,Skill.CriticalChance2,Skill.Setting.CriticalChance2,-1,60,0,5|50,10|25,15|15,20|5,0|0|50|30
+#1027010,10,2,27,飞机,暴击伤害,Skill.CriticalDamage2,Skill.Setting.CriticalDamage2,-1,100,0,,,,,0|0|50|30

@@ -1,5 +1,7 @@
 import 'package:bounce_defense/core/constants/game_constants.dart';
 import 'package:bounce_defense/game/components/ball/ball_component.dart';
+import 'package:bounce_defense/models/enemy_config.dart';
+import 'package:bounce_defense/models/skill_config.dart';
 import 'package:bounce_defense/main.dart';
 import 'package:flame/game.dart';
 import 'package:flutter_test/flutter_test.dart';
@@ -37,5 +39,45 @@ void main() {
 
     expect(expectedMultiplier, closeTo(2.5, 0.001));
     expect(expectedDamage, closeTo(50.0, 0.001));
+  });
+
+  test('EnemyConfig parses authentic CSV row correctly', () {
+    const rawRow = ['10101', '盾兵', 'Enemy 10 - Shield', '0', '0.5', '1', '5'];
+    final enemy = EnemyConfig.fromCsvRow(rawRow);
+
+    expect(enemy.id, 10101);
+    expect(enemy.prefabName, 'Enemy 10 - Shield');
+    expect(enemy.isBoss, false);
+    expect(enemy.baseHp, 0.5);
+    expect(enemy.baseAtk, 1.0);
+    expect(enemy.expReward, 5);
+  });
+
+  test('SkillDataConfig parses authentic row and unlocks RV ad perks with no blocker', () {
+    const rawRow = [
+      '2',
+      '2',
+      '0',
+      '-1',
+      '-1',
+      'Skill Data Ball Boost RV',
+      'Skill.BallBoost',
+      '',
+      '-1',
+      '-1',
+      '10000',
+      '1|0',
+      '1|130',
+      '1|0',
+      '1|0',
+      '-1'
+    ];
+    final skill = SkillDataConfig.fromCsvRow(rawRow);
+
+    expect(skill.id, 2);
+    expect(skill.name, 'Skill Data Ball Boost RV');
+    expect(skill.isAdPerk, true);
+    // In our system, the perk is freely usable by the player with no ad blockers
+    expect(skill.baseWeight, 10000);
   });
 }

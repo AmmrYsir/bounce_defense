@@ -1,0 +1,44 @@
+#id,LoadName 加载命名,
+%id,skill_name,skill_add_type
+$[id:unique][id:type:int],[skill_name:type:string],[skill_add_type:type:int]
+1,Skill Data +1 Ball,0
+2,Skill Data Ball Boost RV,0
+3,Skill Data Ball Speed,0
+4,Skill Data Base Heal,0
+5,Skill Data Base with RV Heal,0
+6,Skill Data Boss Damage,1
+7,Skill Data Bouncer Level Up,0
+8,Skill Data Bullet Split Chance,0
+9,Skill Data Critical Chance,0
+10,Skill Data Critical Damage,0
+11,Skill Data Cursed Growth,0
+12,Skill Data Double Departuret,0
+13,Skill Data Double Shoot Chance,0
+14,Skill Data Enemy Speed,0
+15,Skill Data EXP UP,0
+16,Skill Data Fill Number Reduce,0
+17,Skill Data Hero Multi Use,0
+18,Skill Data Increase Damage,0
+19,Skill Data Increase Damage for this wave,0
+20,Skill Data Increase Damage for this wave RV,0
+21,Skill Data Increase Damage with RV,0
+22,Skill Data Insta Shot,0
+23,Skill Data Level Up Random Tower,0
+24,Skill Data Life Steal Chance,0
+25,Skill Data Luck Chance,0
+26,Skill Data Max HP Up,0
+27,Skill Data Merge Bonus,0
+28,Skill Data Miss Chance,0
+29,Skill Data Recycle Refund,0
+30,Skill Data Remove Random Obstacle,0
+31,Skill Data Ricochet Chance,0
+32,Skill Data Skill Duration,0
+33,Skill Data Skill Range,0
+35,Skill Data Wall Shield,0
+36,Skill Data EnergyStorage1,3
+37,Skill Data EnergyStorage2,3
+38,Skill Data EnergyStorage3,3
+39,Skill Data Get Extra Coin,0
+40,Skill Data AircraftFactory1,3
+41,Skill Data AircraftFactory2,3
+42,Skill Data AircraftFactory3,3
