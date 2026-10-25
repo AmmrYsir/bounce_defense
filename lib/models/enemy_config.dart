@@ -22,13 +22,15 @@ class EnemyConfig {
 
   /// Parse a line from EnemyConfig Luban CSV
   factory EnemyConfig.fromCsvRow(List<String> columns) {
-    // Columns: id, Des, PrefabName, EnemyCategory, hp, atk, Exp, ExtraBehavior
     final id = int.tryParse(columns[0].trim()) ?? 0;
     final des = columns.length > 1 ? columns[1].trim() : '';
     final prefab = columns.length > 2 ? columns[2].trim() : '';
-    final category = columns.length > 3 ? int.tryParse(columns[3].trim()) ?? 0 : 0;
-    final hp = columns.length > 4 ? double.tryParse(columns[4].trim()) ?? 1.0 : 1.0;
-    final atk = columns.length > 5 ? double.tryParse(columns[5].trim()) ?? 1.0 : 1.0;
+    final category =
+        columns.length > 3 ? int.tryParse(columns[3].trim()) ?? 0 : 0;
+    final hp =
+        columns.length > 4 ? double.tryParse(columns[4].trim()) ?? 1.0 : 1.0;
+    final atk =
+        columns.length > 5 ? double.tryParse(columns[5].trim()) ?? 1.0 : 1.0;
     final exp = columns.length > 6 ? int.tryParse(columns[6].trim()) ?? 1 : 1;
 
     final extra = <int>[];
@@ -52,10 +54,35 @@ class EnemyConfig {
     );
   }
 
-  /// Resolve corresponding extracted sprite path
+  /// Resolve corresponding extracted sprite path in `assets/sprites/`
   String get spriteAssetPath {
-    final sanitized = prefabName.replaceAll(' ', '_');
-    // Try matching specific extracted enemy names or fallback to standard
-    return 'assets/sprites/$sanitized.png';
+    if (prefabName.contains('Shield') || id == 10101 || id == 11101) {
+      return 'assets/sprites/Enemy_10_-_Shield.png';
+    }
+    if (prefabName.contains('Giant') || id == 10102 || isBoss) {
+      return 'assets/sprites/Enemy_11_-_Giant.png';
+    }
+    if (prefabName.contains('Arcane') ||
+        prefabName.contains('Long Range') ||
+        id == 10103 ||
+        id == 10004) {
+      return 'assets/sprites/Enemy_13_-_Arcane_Mage.png';
+    }
+    if (prefabName.contains('Absorber') || id == 10104) {
+      return 'assets/sprites/Enemy_14_-_Absorber.png';
+    }
+    if (prefabName.contains('Enemy 12') ||
+        prefabName.contains('Fast') ||
+        prefabName.contains('Suicide')) {
+      return 'assets/sprites/Enemy_12.png';
+    }
+    return 'assets/sprites/monster_1_big.png';
+  }
+
+  /// Flame images.load takes path relative to `assets/images/` unless prefix is cleared,
+  /// or we pass the full path when `images.prefix = ''`.
+  String get cleanDisplayName {
+    if (prefabName.isEmpty) return isBoss ? 'Boss' : 'Enemy';
+    return prefabName;
   }
 }
